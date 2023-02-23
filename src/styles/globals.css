@@ -87,13 +87,67 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: linear-gradient(to right, blue , purple);
 }
+
+button {
+  width:100px;
+  height:50px;
+  background:rgb(55, 184, 235);
+  border-radius: 10px;
+}
+.logb{
+  position:absolute;
+  top:1%;
+  text-align: right;
+  width:100%;
+}
+.logout{
+  position:absolute;
+  top:1%;
+  text-align: right;
+  width:100%;
+}
+.add{
+  position:absolute;
+  top:3%;
+  left:40%;
+  text-align: center;
+}
+
+.homel{
+ 
+  text-align: center;
+  font-size: 24px;
+  left:1%;
+position: absolute;
+top:400%;
+width:15%;
+height: 600%;
+}
+.homer{
+
+  text-align: center;
+  font-size: 24px;
+  left:20%;
+position: absolute;
+top:200%;
+width:75%;
+height: 1000%;
+}
+.postc{
+  margin-top:10%;
+}
+.dpost{
+  width:50%;
+  height:200px;
+  font-size: large;
+}
+.ho{
+  text-align: center;
+  font-size: 58px;
+}
+
 
 a {
   color: inherit;
